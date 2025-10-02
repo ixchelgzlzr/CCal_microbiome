@@ -1,0 +1,5 @@
+*.vcf
+.Rproj.user
+*.pptx
+.Rhistory
+microeco_output/network.gexf

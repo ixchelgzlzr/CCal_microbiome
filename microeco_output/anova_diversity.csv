@@ -1,0 +1,11 @@
+"","Method","Measure","Factors","Df","Fvalue","P.unadj","Significance"
+"1","anova formula for Geographic.region","Shannon","Geographic.region",5,0.710841893721136,0.620551062725229,"ns"
+"2","anova formula for Geographic.region","Shannon","Residuals",27,NA,NA,NA
+"3","anova formula for Geographic.region","Simpson","Geographic.region",5,1.61780454139045,0.189145592478912,"ns"
+"4","anova formula for Geographic.region","Simpson","Residuals",27,NA,NA,NA
+"5","anova formula for Geographic.region","InvSimpson","Geographic.region",5,0.806001186571271,0.555454790213749,"ns"
+"6","anova formula for Geographic.region","InvSimpson","Residuals",27,NA,NA,NA
+"7","anova formula for Geographic.region","Pielou","Geographic.region",5,1.2037647215065,0.333994658792351,"ns"
+"8","anova formula for Geographic.region","Pielou","Residuals",27,NA,NA,NA
+"9","anova formula for Geographic.region","Coverage","Geographic.region",5,0.709090909090909,0.621782927844054,"ns"
+"10","anova formula for Geographic.region","Coverage","Residuals",27,NA,NA,NA
