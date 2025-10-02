@@ -10,4 +10,9 @@ This repository contains all the code and data necessary to replicate our result
 * `scripts/4_Env_variables_microeco.R` - Testing for the effect of macroclimatic variables on microbial composition.
 * `scripts/5_functional.R` - Profiling and visualizing functional composition of the microbiome, including differential abundance analyses. 
 
-All the scripts are commented. This code heavily relies on the R package `microeco`, which is throuroughly documented at [https://chiliubio.github.io/microeco_tutorial/](https://chiliubio.github.io/microeco_tutorial/)
+All the scripts are commented. This code heavily relies on the R package `microeco`, which is throuroughly documented at [https://chiliubio.github.io/microeco_tutorial/](https://chiliubio.github.io/microeco_tutorial/).
+
+
+A few other files that might be of interest are:
+* `microeco_output/taxonomy_table.csv` - the taxonomic table of all the bacterial taxa recorded in _C. californica_ samples.
+* `data/sample_info_2.xlsx` - Information of the _C. californica_ samples used in this study.
