@@ -1,12 +1,11 @@
 # Off-target metagenomics: Leveraging whole genome resequencing data to characterize the bacteriome of *Calasterella californica* across California.
 Public repository hosting the data and code for the microbiome analyses of the liverwort *Calasterella californica*.
 
-
 This repository all the data necessary to replicate our results. In the folder `data` we provide the MASTER_bacteriome results (`data/MASTER_abundance_table_no_unclassified.txt`), as well as metadata information of the samples (`data/sample_info_all.csv`), and a few helper files useful to run the analyses. 
 
 There are three folders with scripts:
 
-### `scripts`
+### `scripts/`
 Contains bash scripts to perform all the different steps of this pipeline, from cleaning reads to running metaphlan locally. The provided scripts rely on mantaining the folder structure of this repository. It also assumes that the raw reads are stored in `data/raw_reads/`.
 
 * step 1: `scripts/1_clean_reads.sh` Clean reads with trimmomatic
@@ -26,15 +25,15 @@ Additionally, there are two scripts that can be useful:
 * `scripts/3.1_get_stats.sh` get the number of reads before and after cleaning.
 
 
-### `savio_scripts` 
-contains scripts to run metaphlan on a computer cluster. These scripts will be cluster dependent but they can serve as a guide. 
+### `savio_scripts/` 
+Contains scripts to run metaphlan on a computer cluster. These scripts will be cluster dependent but they can serve as a guide. 
 **Notes about Running metaphlan on savio:** This required a lot of troubleshooting. Eventually what worked was to make a conda enviornment, then install metaphlan using pip 
 `pip install metaphlan`
 Then downloading the database manually using the script savio_scripts/install_metaphlan.sh
 The best approach was to run one sample at the time using multiple cores, instead of paralleliza multiple samples, because you quickly run into memory issues. There are a lot of details in the way metaphlan is set up that shouldn't be changed for SAVIO, e.g. --offline prevents metaphlan from trying to download newer version of the database on a htpc node, which would be super slow. Also, i point directly to the folder where my database lives. So much troubleshooting!! But it worled. The script savio_scripts/savio_sequential.sh == scripts/4_run_metaphlan_on_savio_sequential.sh, just trying to keep teh folder scripts self contained and with all the code. 
 
 
-### `R_scripts` 
+### `R_scripts/` 
 Contains all the code necesarry to analyze the output of metaphlan. All the scripts are commented. This code heavily relies on the R package `microeco`, which is throuroughly documented at [https://chiliubio.github.io/microeco_tutorial/](https://chiliubio.github.io/microeco_tutorial/).
 
 * `R_scripts/1_microeco_alpha_div.R` - Pre-processing and alpha diversity analyses.
