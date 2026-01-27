@@ -1,0 +1,27 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/global/home/users/ixchelgonzalezrmz/.conda/envs/metaphlan/bin/metaphlan output/micro_fastq/micro_IG118_R1.fastq.gz,output/micro_fastq/micro_IG118_R2.fastq.gz --input_type fastq --db_dir /global/scratch/users/ixchelgonzalezrmz/microbiome/database/mpa_vJan25_CHOCOPhlAnSGB_202503 -x mpa_vJan25_CHOCOPhlAnSGB_202503 --offline --verbose --skip_unclassified_estimation --mapout output/metaphlan_out/IG118_map.bowtie2.bz2 --nproc 20
+#11627719 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Pseudomonadota	2|1224	99.18655	
+k__Bacteria|p__Actinomycetota	2|201174	0.68738	
+k__Bacteria|p__Myxococcota	2|2818505	0.12607	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria	2|1224|1236	99.18655	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes	2|201174|1760	0.68738	
+k__Bacteria|p__Myxococcota|c__Myxococcota_unclassified	2|2818505|	0.12607	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales	2|1224|1236|72274	99.18655	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales	2|201174|1760|85010	0.68738	
+k__Bacteria|p__Myxococcota|c__Myxococcota_unclassified|o__Polyangiales	2|2818505||3031712	0.12607	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae	2|1224|1236|72274|135621	99.18655	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae	2|201174|1760|85010|2070	0.68738	
+k__Bacteria|p__Myxococcota|c__Myxococcota_unclassified|o__Polyangiales|f__Polyangiaceae	2|2818505||3031712|49	0.12607	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas	2|1224|1236|72274|135621|286	99.18655	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae|g__Pseudonocardia	2|201174|1760|85010|2070|1847	0.68738	
+k__Bacteria|p__Myxococcota|c__Myxococcota_unclassified|o__Polyangiales|f__Polyangiaceae|g__GGB78370	2|2818505||3031712|49|	0.12607	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_californiensis	2|1224|1236|72274|135621|286|2829823	99.18655	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae|g__Pseudonocardia|s__Pseudonocardia_charpentierae	2|201174|1760|85010|2070|1847|3075545	0.68738	
+k__Bacteria|p__Myxococcota|c__Myxococcota_unclassified|o__Polyangiales|f__Polyangiaceae|g__GGB78370|s__GGB78370_SGB107507	2|2818505||3031712|49||	0.12607	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_californiensis|t__SGB110487	2|1224|1236|72274|135621|286|2829823|	99.18655	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae|g__Pseudonocardia|s__Pseudonocardia_charpentierae|t__SGB130506	2|201174|1760|85010|2070|1847|3075545|	0.68738	
+k__Bacteria|p__Myxococcota|c__Myxococcota_unclassified|o__Polyangiales|f__Polyangiaceae|g__GGB78370|s__GGB78370_SGB107507|t__SGB107507	2|2818505||3031712|49|||	0.12607	

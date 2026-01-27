@@ -1,0 +1,7 @@
+Fri Jan  2 09:11:55 2026: Start MetaPhlAn execution
+Fri Jan  2 09:11:55 2026: Bowtie2 indexes found
+Fri Jan  2 09:11:55 2026: Pickle file found
+Fri Jan  2 09:12:40 2026: The database is installed (mpa_vJan25_CHOCOPhlAnSGB_202503)
+Fri Jan  2 09:12:41 2026: Running BowTie2
+Fri Jan  2 09:24:08 2026: [Warning] The metagenome profile contains clades that represent multiple species merged into a single representant. An additional column listing the merged species is added to the MetaPhlAn output.
+Fri Jan  2 09:24:08 2026: Finish MetaPhlAn execution (733.52 seconds)

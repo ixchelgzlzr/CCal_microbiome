@@ -1,0 +1,146 @@
+#mpa_vJan25_CHOCOPhlAnSGB_202503
+#/global/home/users/ixchelgonzalezrmz/.conda/envs/metaphlan/bin/metaphlan output/micro_fastq_batch2/micro_IG016_R1.fastq.gz,output/micro_fastq_batch2/micro_IG016_R2.fastq.gz --input_type fastq --db_dir /global/scratch/users/ixchelgonzalezrmz/microbiome/database/mpa_vJan25_CHOCOPhlAnSGB_202503 -x mpa_vJan25_CHOCOPhlAnSGB_202503 --offline --verbose --skip_unclassified_estimation --mapout output/metaphlan_out_no_unclassified_batch2/IG016_map.bowtie2.bz2 --nproc 20
+#31264980 reads processed
+#SampleID	Metaphlan_Analysis
+#clade_name	NCBI_tax_id	relative_abundance	additional_species
+k__Bacteria	2	100.0	
+k__Bacteria|p__Pseudomonadota	2|1224	82.4005	
+k__Bacteria|p__Actinomycetota	2|201174	15.01394	
+k__Bacteria|p__Bacteroidota	2|976	2.41736	
+k__Bacteria|p__Bacteria_unclassified	2|	0.16819	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria	2|1224|28211	55.26601	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria	2|1224|1236	19.98459	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes	2|201174|1760	9.9651	
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria	2|1224|28216	7.1499	
+k__Bacteria|p__Actinomycetota|c__CFGB5329	2|201174|	3.64318	
+k__Bacteria|p__Bacteroidota|c__Cytophagia	2|976|768503	1.68602	
+k__Bacteria|p__Actinomycetota|c__Thermoleophilia	2|201174|1497346	1.40566	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia	2|976|117743	0.42943	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia	2|976|117747	0.30192	
+k__Bacteria|p__Bacteria_unclassified|c__Bacteria_unclassified	2||	0.16819	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales	2|1224|28211|356	52.91145	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales	2|1224|1236|72274	19.18178	
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales	2|1224|28216|80840	7.1499	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales	2|201174|1760|85010	4.30607	
+k__Bacteria|p__Actinomycetota|c__CFGB5329|o__OFGB5329	2|201174||	3.64318	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales	2|201174|1760|85006	3.45439	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales	2|976|768503|768507	1.68602	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales	2|1224|28211|204457	1.68567	
+k__Bacteria|p__Actinomycetota|c__Thermoleophilia|o__Solirubrobacterales	2|201174|1497346|588673	1.40566	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micromonosporales	2|201174|1760|85008	1.34499	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Kitasatosporales	2|201174|1760|85011	0.8332	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales	2|1224|1236|91347	0.80281	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Acetobacterales	2|1224|28211|3120395	0.66889	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales	2|976|117743|200644	0.42943	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales	2|976|117747|200666	0.30192	
+k__Bacteria|p__Bacteria_unclassified|c__Bacteria_unclassified|o__Bacteria_unclassified	2|||	0.16819	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Propionibacteriales	2|201174|1760|85009	0.02645	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae	2|1224|28211|356|119045	38.43293	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae	2|1224|1236|72274|135621	19.18178	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Rhizobiaceae	2|1224|28211|356|82115	13.00691	
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae	2|1224|28216|80840|80864	7.1499	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae	2|201174|1760|85010|2070	4.30607	
+k__Bacteria|p__Actinomycetota|c__CFGB5329|o__OFGB5329|f__FGB5329	2|201174|||	3.64318	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Microbacteriaceae	2|201174|1760|85006|85023	3.45439	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae	2|1224|28211|204457|41297	1.68567	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Roseiarcaceae	2|1224|28211|356|1643957	1.40999	
+k__Bacteria|p__Actinomycetota|c__Thermoleophilia|o__Solirubrobacterales|f__Conexibacteraceae	2|201174|1497346|588673|320583	1.40566	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micromonosporales|f__Micromonosporaceae	2|201174|1760|85008|28056	1.34499	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Hymenobacteraceae	2|976|768503|768507|1853232	1.2368	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Kitasatosporales|f__Streptomycetaceae	2|201174|1760|85011|2062	0.8332	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Yersiniaceae	2|1224|1236|91347|1903411	0.80281	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Acetobacterales|f__Roseomonadaceae	2|1224|28211|3120395|3385906	0.66889	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Cytophagaceae	2|976|768503|768507|89373	0.44922	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae	2|976|117743|200644|49546	0.42943	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae	2|976|117747|200666|84566	0.30192	
+k__Bacteria|p__Bacteria_unclassified|c__Bacteria_unclassified|o__Bacteria_unclassified|f__Bacteria_unclassified	2||||	0.16819	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Aurantimonadaceae	2|1224|28211|356|255475	0.06162	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Propionibacteriales|f__Nocardioidaceae	2|201174|1760|85009|85015	0.02645	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium	2|1224|28211|356|119045|407	38.43293	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas	2|1224|1236|72274|135621|286	19.18178	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Rhizobiaceae|g__Agrobacterium	2|1224|28211|356|82115|357	13.00691	
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Variovorax	2|1224|28216|80840|80864|34072	5.61216	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae|g__Pseudonocardia	2|201174|1760|85010|2070|1847	4.30607	
+k__Bacteria|p__Actinomycetota|c__CFGB5329|o__OFGB5329|f__FGB5329|g__GGB93945	2|201174||||	3.64318	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Microbacteriaceae|g__Frondihabitans	2|201174|1760|85006|85023|447237	2.24309	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas	2|1224|28211|204457|41297|13687	1.68567	
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Acidovorax	2|1224|28216|80840|80864|12916	1.53774	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Roseiarcaceae|g__Roseiarcaceae_unclassified	2|1224|28211|356|1643957|	1.40999	
+k__Bacteria|p__Actinomycetota|c__Thermoleophilia|o__Solirubrobacterales|f__Conexibacteraceae|g__Conexibacter	2|201174|1497346|588673|320583|191494	1.40566	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micromonosporales|f__Micromonosporaceae|g__Actinoplanes	2|201174|1760|85008|28056|1865	1.34499	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Hymenobacteraceae|g__Hymenobacter	2|976|768503|768507|1853232|89966	1.2368	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Microbacteriaceae|g__GGB15691	2|201174|1760|85006|85023|	1.2113	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Kitasatosporales|f__Streptomycetaceae|g__GGB10267	2|201174|1760|85011|2062|	0.8332	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Yersiniaceae|g__Rahnella	2|1224|1236|91347|1903411|34037	0.80281	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Acetobacterales|f__Roseomonadaceae|g__Roseococcus	2|1224|28211|3120395|3385906|35812	0.66889	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Cytophagaceae|g__Spirosoma	2|976|768503|768507|89373|107	0.44922	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium	2|976|117743|200644|49546|237	0.42943	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Mucilaginibacter	2|976|117747|200666|84566|423349	0.25691	
+k__Bacteria|p__Bacteria_unclassified|c__Bacteria_unclassified|o__Bacteria_unclassified|f__Bacteria_unclassified|g__Bacteria_unclassified	2|||||	0.16819	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Aurantimonadaceae|g__Aureimonas	2|1224|28211|356|255475|414371	0.06162	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Pedobacter	2|976|117747|200666|84566|84567	0.04501	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Propionibacteriales|f__Nocardioidaceae|g__Marmoricola	2|201174|1760|85009|85015|86795	0.02645	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_77	2|1224|28211|356|119045|407|1101192	31.32184	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_edaphica	2|1224|1236|72274|135621|286|2006980	15.2282	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Rhizobiaceae|g__Agrobacterium|s__Agrobacterium_rosae	2|1224|28211|356|82115|357|1972867	13.00691	
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Variovorax|s__Variovorax_sp_OK202	2|1224|28216|80840|80864|34072|1884311	5.61216	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL2	2|1224|28211|356|119045|407|2603902	4.36122	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae|g__Pseudonocardia|s__Pseudonocardia_charpentierae	2|201174|1760|85010|2070|1847|3075545	4.30607	
+k__Bacteria|p__Actinomycetota|c__CFGB5329|o__OFGB5329|f__FGB5329|g__GGB93945|s__GGB93945_SGB129816	2|201174|||||	3.64318	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_viridiflava	2|1224|1236|72274|135621|286|33069	3.63599	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Microbacteriaceae|g__Frondihabitans|s__Frondihabitans_sp_PhB188	2|201174|1760|85006|85023|447237|2485200	2.24309	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_longum	2|1224|28211|356|119045|407|767694	1.60183	
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Acidovorax|s__Acidovorax_sp_Root217	2|1224|28216|80840|80864|12916|1736492	1.53774	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Roseiarcaceae|g__Roseiarcaceae_unclassified|s__Roseiarcaceae_bacterium_H3SJ34_1	2|1224|28211|356|1643957||3032367	1.40999	
+k__Bacteria|p__Actinomycetota|c__Thermoleophilia|o__Solirubrobacterales|f__Conexibacteraceae|g__Conexibacter|s__Conexibacter_woesei	2|201174|1497346|588673|320583|191494|191495	1.40566	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micromonosporales|f__Micromonosporaceae|g__Actinoplanes|s__Actinoplanes_awajinensis	2|201174|1760|85008|28056|1865|135946	1.34499	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas|s__Sphingomonas_ursincola	2|1224|28211|204457|41297|13687|56361	1.23832	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Hymenobacteraceae|g__Hymenobacter|s__Hymenobacter_negativus	2|976|768503|768507|1853232|89966|2795026	1.2368	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Microbacteriaceae|g__GGB15691|s__GGB15691_SGB175212	2|201174|1760|85006|85023||	1.2113	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_cerastii	2|1224|28211|356|119045|407|932741	1.14804	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Kitasatosporales|f__Streptomycetaceae|g__GGB10267|s__GGB10267_SGB16515	2|201174|1760|85011|2062||	0.8332	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Yersiniaceae|g__Rahnella|s__Rahnella_victoriana	2|1224|1236|91347|1903411|34037|1510570	0.80281	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Acetobacterales|f__Roseomonadaceae|g__Roseococcus|s__Roseococcus_sp_SYP_B2431	2|1224|28211|3120395|3385906|35812|2496640	0.66889	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Cytophagaceae|g__Spirosoma|s__Spirosoma_endophyticum	2|976|768503|768507|89373|107|662367	0.44922	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas|s__Sphingomonas_sp_GC_Shp_1	2|1224|28211|204457|41297|13687|2937385	0.44735	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium|s__Flavobacterium_psychroterrae	2|976|117743|200644|49546|237|2133767	0.40758	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_californiensis	2|1224|1236|72274|135621|286|2829823	0.31759	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Mucilaginibacter|s__Mucilaginibacter_psychrotolerans	2|976|117747|200666|84566|423349|1524096	0.2198	
+k__Bacteria|p__Bacteria_unclassified|c__Bacteria_unclassified|o__Bacteria_unclassified|f__Bacteria_unclassified|g__Bacteria_unclassified|s__bacterium	2||||||1869227	0.16819	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Aurantimonadaceae|g__Aureimonas|s__Aureimonas_sp_Leaf427	2|1224|28211|356|255475|414371|1736375	0.06162	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Pedobacter|s__Pedobacter_rhodius	2|976|117747|200666|84566|84567|3004098	0.04501	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Mucilaginibacter|s__Mucilaginibacter_phenanthrenivorans	2|976|117747|200666|84566|423349|1234842	0.03711	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Propionibacteriales|f__Nocardioidaceae|g__Marmoricola|s__Marmoricola_sp_URHB0036	2|201174|1760|85009|85015|86795|1298863	0.02645	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium|s__Flavobacterium_rivuli	2|976|117743|200644|49546|237|498301	0.02185	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_77|t__SGB31927	2|1224|28211|356|119045|407|1101192|	31.32184	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_edaphica|t__SGB12157	2|1224|1236|72274|135621|286|2006980|	15.2282	k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_sp_2995_3,k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_sp_WS_5532,k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_sp_WS_5146,k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_sp_PA_6_3C,k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_sp_PA_5_4A,k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_sp_OE_28_3
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Rhizobiaceae|g__Agrobacterium|s__Agrobacterium_rosae|t__SGB11075	2|1224|28211|356|82115|357|1972867|	13.00691	k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Rhizobiaceae|g__Agrobacterium|s__Agrobacterium_sp_DSM_25558
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Variovorax|s__Variovorax_sp_OK202|t__SGB12756	2|1224|28216|80840|80864|34072|1884311|	5.61216	k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Variovorax|s__Variovorax_sp_OK605
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL2|t__SGB89775	2|1224|28211|356|119045|407|2603902|	4.36122	k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL64
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Pseudonocardiales|f__Pseudonocardiaceae|g__Pseudonocardia|s__Pseudonocardia_charpentierae|t__SGB130506	2|201174|1760|85010|2070|1847|3075545|	4.30607	
+k__Bacteria|p__Actinomycetota|c__CFGB5329|o__OFGB5329|f__FGB5329|g__GGB93945|s__GGB93945_SGB129816|t__SGB129816	2|201174||||||	3.64318	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_viridiflava|t__SGB33044	2|1224|1236|72274|135621|286|33069|	3.63599	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Microbacteriaceae|g__Frondihabitans|s__Frondihabitans_sp_PhB188|t__SGB34977	2|201174|1760|85006|85023|447237|2485200|	2.24309	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_longum|t__SGB111596	2|1224|28211|356|119045|407|767694|	1.60183	k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_E_046
+k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Acidovorax|s__Acidovorax_sp_Root217|t__SGB109007	2|1224|28216|80840|80864|12916|1736492|	1.53774	k__Bacteria|p__Pseudomonadota|c__Betaproteobacteria|o__Burkholderiales|f__Comamonadaceae|g__Acidovorax|s__Acidovorax_sp_Root219
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Roseiarcaceae|g__Roseiarcaceae_unclassified|s__Roseiarcaceae_bacterium_H3SJ34_1|t__SGB184036	2|1224|28211|356|1643957||3032367|	1.40999	
+k__Bacteria|p__Actinomycetota|c__Thermoleophilia|o__Solirubrobacterales|f__Conexibacteraceae|g__Conexibacter|s__Conexibacter_woesei|t__SGB33793	2|201174|1497346|588673|320583|191494|191495|	1.40566	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micromonosporales|f__Micromonosporaceae|g__Actinoplanes|s__Actinoplanes_awajinensis|t__SGB16437	2|201174|1760|85008|28056|1865|135946|	1.34499	k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micromonosporales|f__Micromonosporaceae|g__Actinoplanes|s__Actinoplanes_palleronii
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas|s__Sphingomonas_ursincola|t__SGB11561	2|1224|28211|204457|41297|13687|56361|	1.23832	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Hymenobacteraceae|g__Hymenobacter|s__Hymenobacter_negativus|t__SGB95286	2|976|768503|768507|1853232|89966|2795026|	1.2368	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Micrococcales|f__Microbacteriaceae|g__GGB15691|s__GGB15691_SGB175212|t__SGB175212	2|201174|1760|85006|85023|||	1.2113	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_cerastii|t__SGB89785	2|1224|28211|356|119045|407|932741|	1.14804	k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL12,k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL8,k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL122,k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL103,k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Methylobacteriaceae|g__Methylobacterium|s__Methylobacterium_sp_WL120
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Kitasatosporales|f__Streptomycetaceae|g__GGB10267|s__GGB10267_SGB16515|t__SGB16515	2|201174|1760|85011|2062|||	0.8332	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Yersiniaceae|g__Rahnella|s__Rahnella_victoriana|t__SGB10241	2|1224|1236|91347|1903411|34037|1510570|	0.80281	k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Enterobacteriaceae|g__Enterobacteriaceae_unclassified|s__Enterobacteriaceae_bacterium_Larv1_ips,k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Enterobacterales|f__Yersiniaceae|g__Rahnella|s__Rahnella_sp_BIGb0236
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Acetobacterales|f__Roseomonadaceae|g__Roseococcus|s__Roseococcus_sp_SYP_B2431|t__SGB31832	2|1224|28211|3120395|3385906|35812|2496640|	0.66889	
+k__Bacteria|p__Bacteroidota|c__Cytophagia|o__Cytophagales|f__Cytophagaceae|g__Spirosoma|s__Spirosoma_endophyticum|t__SGB3413	2|976|768503|768507|89373|107|662367|	0.44922	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas|s__Sphingomonas_sp_GC_Shp_1|t__SGB182733	2|1224|28211|204457|41297|13687|2937385|	0.44735	k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas|s__Sphingomonas_sp_GC_Shp_5,k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Sphingomonadales|f__Sphingomonadaceae|g__Sphingomonas|s__Sphingomonas_sp_GC_Shp_4
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium|s__Flavobacterium_psychroterrae|t__SGB92166	2|976|117743|200644|49546|237|2133767|	0.40758	
+k__Bacteria|p__Pseudomonadota|c__Gammaproteobacteria|o__Pseudomonadales|f__Pseudomonadaceae|g__Pseudomonas|s__Pseudomonas_californiensis|t__SGB110487	2|1224|1236|72274|135621|286|2829823|	0.31759	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Mucilaginibacter|s__Mucilaginibacter_psychrotolerans|t__SGB28265	2|976|117747|200666|84566|423349|1524096|	0.2198	
+k__Bacteria|p__Bacteria_unclassified|c__Bacteria_unclassified|o__Bacteria_unclassified|f__Bacteria_unclassified|g__Bacteria_unclassified|s__bacterium|t__SGB111709	2||||||1869227|	0.16819	
+k__Bacteria|p__Pseudomonadota|c__Alphaproteobacteria|o__Hyphomicrobiales|f__Aurantimonadaceae|g__Aureimonas|s__Aureimonas_sp_Leaf427|t__SGB11449	2|1224|28211|356|255475|414371|1736375|	0.06162	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Pedobacter|s__Pedobacter_rhodius|t__SGB196089	2|976|117747|200666|84566|84567|3004098|	0.04501	
+k__Bacteria|p__Bacteroidota|c__Sphingobacteriia|o__Sphingobacteriales|f__Sphingobacteriaceae|g__Mucilaginibacter|s__Mucilaginibacter_phenanthrenivorans|t__SGB109260	2|976|117747|200666|84566|423349|1234842|	0.03711	
+k__Bacteria|p__Actinomycetota|c__Actinomycetes|o__Propionibacteriales|f__Nocardioidaceae|g__Marmoricola|s__Marmoricola_sp_URHB0036|t__SGB34146	2|201174|1760|85009|85015|86795|1298863|	0.02645	
+k__Bacteria|p__Bacteroidota|c__Flavobacteriia|o__Flavobacteriales|f__Flavobacteriaceae|g__Flavobacterium|s__Flavobacterium_rivuli|t__SGB3052	2|976|117743|200644|49546|237|498301|	0.02185	
