@@ -1,10 +1,13 @@
 # Off-target metagenomics: Leveraging whole genome resequencing data to study the bacteriome of *Calasterella californica*
 Public repository hosting the data and code for the microbiome analyses of the liverwort *Calasterella californica*.
 
+****
+
 ## Quick start
 This repository accompanies the analysis of off-target metagenomic reads from whole-genome sequencing data of *Calasterella californica*. It contains scripts and workflows to (i) remove host reads, (ii) characterize bacterial communities using MetaPhlAn, and (iii) perform downstream analyses in R.
 
 1. Repository structure
+```
 CCal_microbiome/
 ├── data/                # Input data (raw reads, reference files)
 ├── scripts/             # Bash scripts for read processing and filtering
@@ -13,6 +16,7 @@ CCal_microbiome/
 ├── microeco_output/     # Outputs from microeco-based analyses performed in R
 ├── output/              # Intermediate and final results
 └── README.md
+```
 
 2. Requirements
 Conda (recommended)
