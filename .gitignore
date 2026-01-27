@@ -26,3 +26,4 @@ CCal_microbiome.Rproj
 savio_scripts/_*.sh
 *.DS_Store
 database/
+.DS_Store
