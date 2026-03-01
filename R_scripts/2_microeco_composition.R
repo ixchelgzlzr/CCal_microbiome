@@ -8,12 +8,14 @@ t1 <- trans_alpha$new(dataset = mt, group = "Geographic_region")
 # Anova to test for geographic region effect on diversity
 t1$cal_diff(method = "anova", formula = "Geographic_region")
 
+
 # return t1$res_diff
 t1$res_diff
 
 # save anova results
 anova_diversity <- t1$res_diff
-write.csv(anova_diversity, "microeco_output/anova_diversity.csv")
+#write.csv(anova_diversity, "microeco_output/anova_diversity.csv")
+
 
 #----------------#
 # BETA diversity #
@@ -81,7 +83,8 @@ biplot
 t1$cal_manova(group = "Geographic_region")
 t1$res_manova
 
-write.csv(t1$res_manova, "microeco_output/perMANOVA.csv")
+#write.csv(t1$res_manova, "microeco_output/perMANOVA.csv")
+
 
 
 ###############
@@ -103,6 +106,17 @@ palette <- c("Northcal"          = "#2DB27DFF",
 
 
 # For geographic region:
+
+# order level
+t0 <- trans_diff$new(dataset = mt,
+                     method = "lefse",
+                     group = "Geographic_region",
+                     alpha = 0.05,
+                     lefse_subgroup = NULL,
+                     p_adjust_method = "none",
+                     taxa_level = "Order", 
+                     transformation = 'AST')
+
 
 # family level
 t1 <- trans_diff$new(dataset = mt,
@@ -130,6 +144,13 @@ t2 <- trans_diff$new(dataset = mt,
 
 # see t1$res_diff for the result
 # From v0.8.0, threshold is used for the LDA score selection.
+lda_ord <- t0$plot_diff_bar(keep_prefix = F, 
+                            threshold = 3,
+                            add_sig = T,
+                            color_values = palette) +
+    theme(axis.title.x = element_text(size = 12)) + theme_bw() 
+lda_ord
+
 lda_fam <- t1$plot_diff_bar(keep_prefix = F, 
                             threshold = 3,
                             add_sig = T,

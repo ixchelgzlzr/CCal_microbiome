@@ -78,8 +78,12 @@ Contains all the code necesary to analyze the output of MetaPhlan. All the scrip
 * `R_scripts/3_processing_env_var_microeco.R` - Obtaining macroclimatic variables from bioclimatic layers.
 * `R_scripts/4_Env_variables_microeco.R` - Testing for the effect of macroclimatic variables on microbial composition.
 * `R_scripts/5_functional.R` - Profiling and visualizing functional composition of the microbiome, including differential abundance analyses. 
-
-
+* `R_scripts/6_taxa_prevalence_order_family.R` - Calculates prevalence and mean abundance at Order and Family levels, identifies core taxa (>75% of samples), and generates summary plots/tables.
+* `R_scripts/7_core_vs_diff_mean_abundance.R` - Integrates core taxa (from script 6) with significant LEfSe taxa (from script 2) and plots mean abundance by status (core, differential, both, none) for Order and Family.
+* `R_scripts/map.R` - Generate interactive and static maps of sampling localities by geographic region.
+* `R_scripts/RC_1.R` - Reviewer-response analysis evaluating whether the proportion of unclassified reads is associated with geography, batch, sex, coordinates, and collection date.
+* `R_scripts/RC_2.R` - Reviewer-response analysis testing temporal effects (month/year) on alpha diversity and community composition, including effect sizes and PERMANOVA.
+* `R_scripts/RC_3.R` - Reviewer-response PERMANOVA across Order, Family, and Genus levels to compare the explanatory power of geographic region versus temporal predictors.
 
 
 

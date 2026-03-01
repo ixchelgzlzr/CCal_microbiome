@@ -1,0 +1,10 @@
+"","Level","Factor","R2","Pr(>F)"
+"Geographic_region...1","Order","Geographic_region",0.0988611129643434,0.008
+"year...2","Order","year",0.0271732074433044,0.126
+"month...3","Order","month",0.077968778239998,0.021
+"Geographic_region...4","Family","Geographic_region",0.100500262418578,0.001
+"year...5","Family","year",0.0205751412471522,0.38
+"month...6","Family","month",0.0639563923271032,0.056
+"Geographic_region...7","Genus","Geographic_region",0.104709976283895,0.001
+"year...8","Genus","year",0.0184237299596174,0.526
+"month...9","Genus","month",0.0612346810525758,0.085

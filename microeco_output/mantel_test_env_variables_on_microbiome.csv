@@ -1,4 +1,4 @@
 "","by_group","Variables","mantel type","Correlation method","Correlation coefficient","p.value","p.adjusted","Significance"
-"1","All","T_seasonality","mantel test","pearson",0.118023449411601,0.002,0.003,"**"
-"2","All","Altitude","mantel test","pearson",0.07596248613928,0.073,0.073,""
-"3","All","Annual_PP","mantel test","pearson",0.18685713514583,0.001,0.003,"**"
+"1","All","T_seasonality","mantel test","pearson",0.118023449411601,0.003,0.006,"**"
+"2","All","Altitude","mantel test","pearson",0.07596248613928,0.064,0.064,""
+"3","All","Annual_PP","mantel test","pearson",0.18685713514583,0.004,0.006,"**"

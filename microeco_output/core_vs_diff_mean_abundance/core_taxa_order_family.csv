@@ -1,0 +1,17 @@
+rank,taxon,mean_abundance,is_core,is_diff,status
+Order,Acetobacterales,0.4464823620723849,TRUE,FALSE,Core only
+Order,Burkholderiales,5.5498805985873645,TRUE,FALSE,Core only
+Order,Cytophagales,0.677380508745059,TRUE,FALSE,Core only
+Order,Hyphomicrobiales,44.5220946360031,TRUE,FALSE,Core only
+Order,Micrococcales,3.471017320120415,TRUE,FALSE,Core only
+Order,Propionibacteriales,1.7202907455098138,TRUE,TRUE,Core + Differential
+Order,Pseudomonadales,10.356286623598892,TRUE,FALSE,Core only
+Order,Pseudonocardiales,6.299150065661002,TRUE,TRUE,Core + Differential
+Family,Cytophagaceae,0.4061223691737098,TRUE,FALSE,Core only
+Family,Methylobacteriaceae,28.34022837613477,TRUE,FALSE,Core only
+Family,Microbacteriaceae,2.5986338718829094,TRUE,FALSE,Core only
+Family,Nitrobacteraceae,8.103793936118615,TRUE,FALSE,Core only
+Family,Pseudomonadaceae,10.352848583049386,TRUE,FALSE,Core only
+Family,Pseudonocardiaceae,6.299150065661003,TRUE,TRUE,Core + Differential
+Family,Rhizobiaceae,6.801461457278617,TRUE,FALSE,Core only
+Family,Roseomonadaceae,0.4100468966340232,TRUE,FALSE,Core only

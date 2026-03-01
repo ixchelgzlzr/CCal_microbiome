@@ -1,0 +1,50 @@
+rank,taxon,mean_abundance,is_core,is_diff,status
+Order,Chroococcidiopsidales,0.0508565826811695,FALSE,TRUE,Differential only
+Order,Coleofasciculales,0.00749381571946418,FALSE,TRUE,Differential only
+Order,Gemmatales,0.25775566743178224,FALSE,TRUE,Differential only
+Order,Gemmatimonadales,0.00924061833976316,FALSE,TRUE,Differential only
+Order,Longimicrobiales,0.002764640429485163,FALSE,TRUE,Differential only
+Order,Lysobacterales,0.750901977087472,FALSE,TRUE,Differential only
+Order,Micromonosporales,1.9728054066525105,FALSE,TRUE,Differential only
+Order,Moraxellales,0.21571596199852736,FALSE,TRUE,Differential only
+Order,Nitrosomonadales,0.015207937224979779,FALSE,TRUE,Differential only
+Order,OFGB10042,0.2587673200642085,FALSE,TRUE,Differential only
+Order,OFGB5329,1.5243680183749482,FALSE,TRUE,Differential only
+Order,OFGB659,0.00474082606587685,FALSE,TRUE,Differential only
+Order,Opitutales,0.014312478719094714,FALSE,TRUE,Differential only
+Order,Propionibacteriales,1.7202907455098138,TRUE,TRUE,Core + Differential
+Order,Pseudonocardiales,6.299150065661002,TRUE,TRUE,Core + Differential
+Order,Rhodospirillales,0.15379659865525183,FALSE,TRUE,Differential only
+Order,Rubrobacterales,0.029705885498272605,FALSE,TRUE,Differential only
+Order,Sphingomonadales,0.639951543391106,FALSE,TRUE,Differential only
+Family,Acetobacteraceae,0.01341608381271217,FALSE,TRUE,Differential only
+Family,Alsobacteraceae,0.03261257582326903,FALSE,TRUE,Differential only
+Family,Bacillaceae,0.018850722609217083,FALSE,TRUE,Differential only
+Family,Boseaceae,0.04237362811434,FALSE,TRUE,Differential only
+Family,Chroococcidiopsidaceae,0.0508565826811695,FALSE,TRUE,Differential only
+Family,Chryseotaleaceae,0.0013718563560312707,FALSE,TRUE,Differential only
+Family,Coleofasciculaceae,0.00749381571946418,FALSE,TRUE,Differential only
+Family,Devosiaceae,0.009694433640917816,FALSE,TRUE,Differential only
+Family,FGB10042,0.2587673200642085,FALSE,TRUE,Differential only
+Family,FGB5329,1.5243680183749484,FALSE,TRUE,Differential only
+Family,FGB659,0.004740826065876848,FALSE,TRUE,Differential only
+Family,Flectobacillaceae,0.04968103139954722,FALSE,TRUE,Differential only
+Family,Fulvivirgaceae,0.04979855683880628,FALSE,TRUE,Differential only
+Family,Gemmataceae,0.2577556674317823,FALSE,TRUE,Differential only
+Family,Gemmatimonadaceae,0.009240618339763161,FALSE,TRUE,Differential only
+Family,Leadbetterellaceae,0.012789483067804407,FALSE,TRUE,Differential only
+Family,Longimicrobiaceae,0.002764640429485163,FALSE,TRUE,Differential only
+Family,Methylophilaceae,0.01452556650038158,FALSE,TRUE,Differential only
+Family,Micromonosporaceae,1.9728054066525105,FALSE,TRUE,Differential only
+Family,Moraxellaceae,0.21571596199852736,FALSE,TRUE,Differential only
+Family,Mycobacteriaceae,0.49331438633754454,FALSE,TRUE,Differential only
+Family,Nocardioidaceae,1.4310759844078502,FALSE,TRUE,Differential only
+Family,Opitutaceae,0.014312478719094714,FALSE,TRUE,Differential only
+Family,Oxalobacteraceae,1.3868239185773368,FALSE,TRUE,Differential only
+Family,Propionibacteriaceae,0.2751964091543546,FALSE,TRUE,Differential only
+Family,Pseudonocardiaceae,6.299150065661003,TRUE,TRUE,Core + Differential
+Family,Rubrobacteraceae,0.029705885498272605,FALSE,TRUE,Differential only
+Family,Solirubrobacteraceae,0.018952886174238327,FALSE,TRUE,Differential only
+Family,Sphingomonadaceae,0.637271439942642,FALSE,TRUE,Differential only
+Family,Spirosomataceae,0.0605386554296925,FALSE,TRUE,Differential only
+Family,Weeksellaceae,0.20696577048020867,FALSE,TRUE,Differential only

@@ -56,20 +56,40 @@ t1$trans_ordination(show_taxa = 20)
 t1$plot_ordination(plot_color = "Geographic_region")
 
 # adjust the length of the arrows to show them better
-t1$trans_ordination(adjust_arrow_length = TRUE, max_perc_env = 1.5)
+t1$trans_ordination(adjust_arrow_length = TRUE, max_perc_env = 1.5, show_taxa = 0)
 
 # t1$res_rda_trans is the transformed result for plotting
-t1$plot_ordination(plot_color = "Geographic_region",
-                   plot_type = c("point"),
+CCA <- t1$plot_ordination(plot_color = "Geographic_region",
+                   plot_type = c("point", "ellipse"),
+                   point_size = 1.7, 
                    #centroid_segment_linetype = 1,
-                   ellipse_chull_alpha = 0.05,
+                   ellipse_chull_alpha = 0.01,
                    ellipse_chull_fill = T,
                    env_text_color = "blue",
+                   env_text_size = 4,
                    color_values = palette,
                    env_arrow_color = "blue",
-                   taxa_arrow_color = "black",
-                   taxa_text_color = "black"
-                   )
+                   taxa_arrow_color = "grey45",
+                   taxa_text_size = 3,
+                   taxa_text_color = "grey45"
+                   ) + theme_bw() + theme(legend.position = "inside", legend.position.inside = c(0.88, 0.83), panel.grid = element_blank(),
+                                          legend.box.background = element_rect(color = "black", linetype = "solid"), legend.key = element_blank()) +
+    guides(color = guide_legend(override.aes = list(shape = 19, size = 3)))
+
+source("R_scripts/RC_3.R")
+
+ggarrange(permanova_plot, CCA, ncol = 2, labels = "auto",
+          widths = c(0.8, 1))
+
+
+jpeg("plots/main_permanova_CCA.jpg", res = 300, units = "cm", width = 36, height = 18)
+
+ggarrange(permanova_plot, CCA, ncol = 2, labels = "auto",
+          widths = c(0.8, 1))
+
+dev.off()
+
+
 
 
 
